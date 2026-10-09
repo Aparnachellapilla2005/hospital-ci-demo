@@ -1,6 +1,6 @@
 def predict_risk(bmi, glucose):
     if bmi >= 30 or glucose >= 140:
-        return "HIGH RISK"
+        return "LOW RISK"
     else:
         return "LOW RISK"
 
